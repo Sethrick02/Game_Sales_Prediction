@@ -8,7 +8,7 @@ scaler = MinMaxScaler()
 import datetime as dt
 
 # Load in the csv file
-games = pd.read_csv('C:\\Users\\seth.hertzog\\OneDrive - Mark One Electric Co., Inc\\Desktop\\Random Documents\\ML\\Data Files\\best-selling video games of all time.csv')
+games = pd.read_csv('best-selling video games of all time.csv')
 
 # Display the first few rows
 #print(games.head())
